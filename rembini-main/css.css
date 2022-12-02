@@ -1,0 +1,1253 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Фон всего блока*/
+.goodsbackground {
+    background-color: #90604C;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+/*Фон одного товара*/
+.goodbackground {
+    background-color: white;
+    border-radius: 2px;
+}
+
+/*Манипуляции с каруселькой*/
+.carsize {
+    width: 80%;
+    min-height: 140px;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 5px;
+    margin-right: 4.9px !important;
+    margin-left: 5px !important;
+    background-color: #EEB256;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+
+.mine {
+    border-radius: 100px;
+}
+
+/*Новинка*/
+.new {
+    background-color: #56779D;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 2%;
+    height: 10%;
+    /* border-radius:10%; */
+    color: white;
+
+}
+
+/*Хит*/
+.hit {
+    background-color: #8EC1AC;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 2%;
+    /* border-radius:10%; */
+    color: white;
+
+}
+
+/*Код товара и наличие*/
+.infosize {
+    color: #988E8C;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+/*Шрифты для пронкта*/
+
+.nova {
+    font-family: Proxima Nova;
+}
+
+.mary {
+    font-family: Merriweather;
+}
+
+/*Заголовок карточки товара*/
+.headof {
+    color: #311E19;
+    font-weight: 500px;
+    min-height: 64px;
+    line-height: 1;
+}
+
+/*Описание товара*/
+.desc {
+    color: #988E8C;
+    font-size: 10px;
+}
+
+/*Цена и скидка*/
+.price {
+    color: #E34F45;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.discount {
+    color: rgb(220, 220, 220);
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: line-through;
+    justify-content: flex-end;
+}
+
+/*Кнопка корзины*/
+.lightbrown {
+    background-color: #EEB256;
+    color: white;
+    font-weight: bold;
+
+    min-height: 50px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+.lightbrown:hover {
+    background-color: #EEB256;
+}
+
+/*Выпадающее меню с категориям*/
+.car {
+    background: #EEB256;
+    color: #311E19;
+    font-weight: bold;
+    box-shadow: 0px 4px 20px rgba(99, 50, 15, 0.7);
+    border-radius: 100px;
+    border: 5px solid #8A513A;
+    text-align: left;
+}
+
+.car:first-child:active {
+    background: #EEB256;
+
+    border: 5px solid #8A513A;
+}
+
+.car:hover {
+    background: #EEB256;
+}
+
+.car:active {
+    background: #EEB256;
+    border: 5px solid #8A513A;
+}
+
+.car:focus {
+    background: #EEB256;
+    border: 5px solid #8A513A;
+}
+
+.car:disabled {
+    background-color: #8A513A;
+}
+
+.dropdown {
+    margin-bottom: 15px;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.arrow {
+    margin-left: 70%;
+}
+
+.dropdown-item {
+    background: #EEB256;
+    color: #311E19;
+    font-weight: bold;
+}
+
+.dropdown-menu.show {
+
+    background: #EEB256;
+    color: #311E19;
+    font-weight: bold;
+}
+
+
+    
+.div-block {
+    display: inline;}
+/* Класс, который создает цвет и меняет шрифт текста внутри аккордеона */
+@media screen and (min-width: 350px) {
+    .seryimgs {
+        width:40px;
+        height: auto;
+    }
+    
+.div-block {
+    display: inline;
+    margin-left: 5px;
+}
+ }
+
+@media screen and (min-width: 319px) {
+
+    /* родительский блок  шапки сайта*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .seryimgs {
+        width:30px;
+        height: auto;
+    }
+
+    .main-menu {
+        width: 100%;
+        height: 64px;
+        background-color: #F0EFED;
+    }
+
+    /* логотип */
+    .background {
+        width: 100%;
+        height: 551px;
+        flex-grow: 3;
+        background-image: url(Rectangle7.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    button {
+        border: #F0EFED;
+    }
+
+
+    /* кнопка в слайдере */
+    .button {
+        width: 192px;
+        height: 50px;
+        background: #EEB256;
+        border-radius: 3px;
+        border: #F0EFED;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    /* радительский блок дополнительной информцации */
+    .additional-information {
+        width: 100%;
+        height: 591px;
+        background: #EDEDED;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* фоны элементов  */
+
+    .element, .element1, .element2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    .element {
+        background-image: url(Rectangle20.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 90%;
+        height: 80%;
+        justify-items: center;
+
+    }
+
+    .element1 {
+        background-image: url(Rectangle201.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 90%;
+        height: 80%;
+        margin-top: 15px;
+        justify-items: center;
+
+    }
+
+    .element2 {
+        background-image: url(Rectangle202.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 90%;
+        height: 80%;
+        margin-top: 15px;
+        justify-items: center;
+
+    }
+
+    /* отступ родительского блока */
+    .indent {
+
+        margin-bottom: 20px;
+    }
+
+    /* кнопка */
+    .indent-button {
+
+        width: 192px;
+        height: 50px;
+        border: 1px solid #EEB256;
+        border-radius: 3px;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #EEB256;
+        background: transparent;
+
+    }
+
+    /* родительский блок слайдера */
+    .slider-container {
+        display: flex;
+        height: 551px;
+    }
+
+    /* начало слайдреа */
+    .slider {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    /* контеёнер слайдов */
+    .slides {
+        display: flex;
+
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        z-index: -1;
+    }
+
+    /* настройка слайда */
+    .slide0 {
+        display: flex;
+        flex-shrink: 0;
+        justify-content: stretch;
+        flex-grow: 3;
+        align-items: center;
+        width: 100% !important;
+        height: auto;
+        scroll-snap-align: center;
+        margin-right: 0px;
+        box-sizing: border-box;
+
+        background: white;
+        transform-origin: center center;
+        transform: scale(1);
+        z-index: -1;
+    }
+
+    /* переключатель слайдера */
+    .slider__nav {
+        box-sizing: border-box;
+        bottom: 5%;
+        left: 50%;
+        width: 200px;
+        margin-left: 80px;
+        margin-top: -87px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    /* кнопки слайдера */
+    .slider__navlink {
+        display: inline-block;
+        height: 7px;
+        width: 25px;
+        border-radius: 5px;
+        background-color: #DEDEDE;
+        margin: 0 10px 0 10px;
+        z-index: 1;
+    }
+
+    /* выделение кнопки */
+    .slider__navlink:hover {
+        background-color: #EEB256;
+    }
+
+    .stretch {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .rip {
+        width: 80%;
+        margin: 0px !important;
+    }
+
+    /*Ваня (Серега) нахуй*/
+
+    .block1 {
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        background: white;
+        align-items: center;
+    }
+
+    /*Основной блок*/
+    .stroka {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 259px;
+        justify-content: space-between;
+        padding: 5%;
+    
+    }
+
+    /*Контейнер карт*/
+    .card {
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        height: 253px;
+        justify-content: space-evenly;
+        background: #ffffff;
+    }
+
+    /*карты*/
+    .zag {
+        font-family: 'Merriweather';
+        font-size: 100%;
+        font-weight: 400;
+        text-align: center;
+        color: #311E19;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /*заголовок*/
+    .zag1 {
+        font-family: 'Merriweather';
+        font-size: 20px;
+        text-align: center;
+        color: #311E19;
+    }
+
+    /*другая вариация заголовка*/
+    .text {
+        font-family: 'Proxima Nova';
+        font-size: 80%;
+        text-align: center;
+        color: #311E19;
+        opacity: 0.7;
+    
+    }
+
+    /*текст*/
+    .icon1 {
+        width: 81px;
+        height: auto;
+        border-radius: 100px;
+    }
+
+    /*иконки*/
+    .slider-container1 {
+        display: flex;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        height: 630px;
+    }
+
+    /*контейнер слайдера*/
+
+    .slider1 {
+        width: 324px;
+        max-width: 972px;
+        height: 530px;
+        margin: 20px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /*слайдер*/
+
+    .slides1 {
+        display: flex;
+        overflow-x: hidden;
+        position: relative;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+    }
+
+    /*контейнер для слайдов*/
+
+
+    .slide1 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        width: 324px;
+        height: 550px;
+        scroll-snap-align: center;
+        margin-right: 0px;
+        box-sizing: border-box;
+        transform-origin: center center;
+        transform: scale(1);
+    }
+
+    /*слайды*/
+
+    .slider__nav1 {
+        box-sizing: border-box;
+        bottom: 5%;
+        left: 50%;
+        width: 200px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /*контейнер для кнопок слайдера*/
+
+    .slider__navlink1 {
+        display: inline-block;
+        height: 7px;
+        width: 25px;
+        border-radius: 5px;
+        background-color: #DEDEDE;
+        margin: 0 10px 0 10px;
+    }
+
+    /*кнопки слайдера*/
+
+    .slider__navlink1:hover {
+        background-color: #EEB256;
+    }
+
+    /*Илюшка*/
+
+    .be {
+        color: rgb(54, 36, 36) !important;
+        font-family: 'Merriweather';
+    }
+
+    /* Класс, который меняет цвет, раскрывающигося блока   */
+    .accordion-item {
+        background-color: #E1DEDC !important;
+        border-radius: 5px !important;
+    }
+
+    /* Класс, который меняет цвет основного блока карточки */
+    .call {
+        background: linear-gradient(10deg, rgba(226, 218, 213, 1), rgba(194, 183, 175, 1)) !important;
+        border-radius: 5px !important;
+
+    }
+
+    /* Класс, который отключает при раскрытии блока границы у основного блока аккордеона */
+    .accordion-button:not(.collapsed) {
+        color: var(--bs-accordion-active-color);
+    }
+
+    /* Класс, который отвечает за поворот элемента кнопки раскрытия аккордеона  */
+    .accordion-button::after {
+        transform: rotate(-90deg);
+    }
+
+    /* Тег, которому присвоен белый цвет текста */
+    button {
+        color: white !
+    }
+
+    /* Класс, которому задано отключение границ и анимаций при раскрытии элемента аккордеон */
+    .accordion {
+        --bs-accordion-btn-focus-border-color: #ffffff;
+        --bs-accordion-active-color: #ffffff;
+        --bs-accordion-btn-focus-box-shadow: #ffffff;
+    }
+
+    /* Класс для ссылок, которому заданы стилевые параметры  */
+    .link {
+        text-decoration: none !important;
+        color: black !important;
+        font-weight: 600;
+    }
+
+    /* Класс для кнопки, которому заданы стилевые параметры */
+    .buton {
+        width: 268px !important;
+        height: 50px !important;
+        margin: 0 auto !important;
+        border-radius: 0px !important;
+        color: white !important;
+        font-weight: 600;
+        border-radius: 6px !important;
+        background-color: orange !important;
+    }
+
+    /* Два класса для Заголовка и текста над каталогом, которые задают стилевые параметры */
+    .titl {
+        font-family: 'Merriweather';
+        font-weight: 500;
+        text-align: center !important;
+    }
+
+    .titl1 {
+        text-align: center !important;
+        color: rgba(49, 30, 25, 1) !important;
+    }
+
+
+    /*Два пива въебал, и все равно хуета.*/
+
+
+    .block4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+        background: #F9F9F9;
+        align-items: center;
+    }
+
+    /*онсовной блок*/
+    .zag4 {
+        font-family: Merriweather;
+        font-size: 24px;
+        text-align: center;
+        color: #311E19;
+        padding-bottom: 5px;
+    }
+
+    /*Заголовок*/
+    .imga4 {
+        width: 158px;
+        height: 130px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+    /*Картинки*/
+
+
+    .slider-container4 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        height: 130px;
+    }
+
+    /*контейнер слайдера*/
+
+    .slider4 {
+        width: 326px;
+        max-width: 948px;
+        height: 130px;
+        margin: 20px;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /*слайдер*/
+
+    .slides4 {
+        display: flex;
+        overflow-x: scroll;
+        position: relative;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+    }
+
+    /*контейнер для слайдов*/
+
+
+    .slide4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        width: 326px;
+        height: 130px;
+        scroll-snap-align: center;
+        margin-right: 0px;
+        box-sizing: border-box;
+        transform-origin: center center;
+        transform: scale(1);
+    }
+
+    /*слайды*/
+
+    .slider__nav4 {
+        box-sizing: border-box;
+        bottom: 5%;
+        left: 50%;
+        width: 200px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /*контейнер для кнопок слайдера*/
+
+    .slider__navlink4 {
+        display: inline-block;
+        height: 7px;
+        width: 25px;
+        border-radius: 5px;
+        background-color: #DEDEDE;
+        margin: 0 10px 0 10px;
+    }
+
+    /*кнопки слайдера*/
+
+    .slider__navlink4:hover {
+        background-color: #EEB256;
+    }
+
+
+    .OpredelenieRembini
+
+    /*Стилизация текста*/
+        {
+        font-family: 'Merriweather';
+        font-size: 24px;
+        text-align: left;
+        margin: 30px 20px 30px 25px;
+    }
+
+    .colorRembini
+
+    /*Изменение цвета слова Rembini*/
+        {
+        color: #90604C;
+    }
+
+    .TextPosleOpredelenieRembini
+
+    /*Стилизация текста*/
+        {
+        font-family: 'Proxima Nova';
+        font-size: 15px;
+        color: #756865;
+        margin: 27px 106px 30px 25px;
+    }
+
+    .FonNashihBrendov
+
+    /*Стилизация блока отвечающего за фон*/
+        {
+        background-color: #3B4355;
+        height: 630px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .TextNashiBrendi
+
+    /*Стилизация текста*/
+        {
+        font-family: 'Merriweather';
+        font-size: 30px;
+        text-align: center;
+        color: #F0EFED;
+        padding: 70px 0 10px 0;
+    }
+
+    .Brendi
+
+    /*Стилизация блока в котором будут находится картинки*/
+        {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width:90%;
+        margin:5%;
+     
+
+    }
+
+    .Block
+
+    /*Стилизация блоков в которых находятся картинки*/
+        {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        grid-template-rows: repeat(1, 0.451fr);
+        border: 1px solid white;
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        align-content: center;
+        justify-items: center;
+        height: 100px;
+    }
+
+    /*Стилизация картинок*/
+    .imgbrand {
+        width: 100px;
+        height: auto;
+    }
+
+    .imgbrand1 {
+        width: 100px;
+        height: auto;
+        margin-top: 12px;
+    }
+
+    .imgbrand2 {
+        width: 100px;
+        height: auto;
+        margin-top: 12px;
+    }
+
+
+
+    .VseBrendi
+
+    /*Стилизация кнопки "Все бренды"*/
+        {
+        width: 30%;
+        height: 60px;
+        border-radius: 10px;
+        border: 2px solid #D8A456;
+        color: #D8A456;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .StatiRembeni
+
+    /*Стилизация текста*/
+        {
+        font-family: 'Merriweather';
+        font-size: 30px;
+        text-align: center;
+        margin: 50px;
+
+    }
+
+    .StyleNew1
+
+    /*Стилизация блока со статьёй*/
+        {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    .News
+
+    /*Стилизация текста*/
+        {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 26px;
+        width: min-content;
+        color: white;
+        /* width:710px; */
+    }
+
+    .NewsSmol
+
+    /*Стилизация текста*/
+        {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        color: white;
+
+    }
+
+    .pol
+
+    /*Изменение местонахождения текста в блоке*/
+        {
+        margin: 0 auto;
+        padding-top: 60px;
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .VseNews
+
+    /*Стилизация кнопки "Все статьи"*/
+        {
+
+        height: 60px;
+        border-radius: 10px;
+        border: 2px solid #D8A456;
+        color: #D8A456;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        grid-gap: 30px;
+        padding: 3%;
+    }
+
+
+
+    .relative {
+        position: relative;
+    }
+
+    .overflowH {
+        overflow: hidden;
+    }
+
+    .alignLeft {
+        text-align: left;
+    }
+
+    .fs16 {
+        font-size: 16px
+    }
+
+    .footer {
+        display: grid;
+        width: 100%;
+        grid-template-rows: 207px 1163px 1095px;
+        max-height: 2200px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        position: relative;
+    }
+
+    /*Футер*/
+    .footer_map {
+        position: relative;
+        width: 100%;
+        height: 207px;
+    }
+
+    /*Блок с картой*/
+    .grey_rectangle {
+        width: 100%;
+        height: 3px;
+        background: #E2E2E2;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    /*Яндекс Карты*/
+    .footer_top {
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 30px 15px;
+        grid-gap: 15px;
+    }
+
+    /*Блок контактной информации*/
+    .footer_top_text {
+        width: 95%;
+    }
+
+    .firstText {
+        font-size: 24px;
+        font-family: "Merriweather";
+        color: #90604C;
+    }
+
+    .secondText {
+        font-size: 20px;
+        font-family: "Proxima Nova";
+    }
+
+    .pinmap {
+        width: 95%;
+        max-height: 300px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    /*Блок с рисунком карты*/
+    .pinmapPng {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contacts {
+        display: grid;
+        width: 100%;
+        height: 4fr;
+        grid-template-columns: 0.2fr 0.8fr;
+        grid-template-rows: repeat(4, 1fr);
+        text-align: center;
+        align-items: center;
+    }
+
+    /*Грид с контактами*/
+    .icon {
+        width: 50px;
+        height: 50px;
+        padding: auto;
+        margin: auto;
+    }
+
+    /*Иконки в контактах*/
+    .footer_top_info {
+        height: 2fr;
+        font-family: "Merriweather";
+        font-size: 34px;
+        width: 1fr;
+    }
+
+    .black_fti {
+        color: #311E19;
+        margin-bottom: 10px;
+    }
+
+    .questionDiv {
+        height: 1fr;
+        margin-top: 10px;
+    }
+
+    /*Блок с кнопкой*/
+    .question {
+        background: #EEB256;
+        border-radius: 3px;
+        border: none;
+        height: 50px;
+        width: 200px;
+        color: white;
+        font-size: 15px;
+        font-family: "Proxima Nova"
+    }
+
+    /*Кнопка "Задать вопрос"*/
+    .footer_bottom {
+        position: relative;
+        background: #EDEDED;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr) 0.20fr;
+        grid-template-columns: 1fr;
+        grid-row-gap: 45px;
+    }
+
+    /*Нижняя часть футера*/
+    .box4slider {
+        height: 1fr;
+        ;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat 0.3fr 0.3fr 0.1fr;
+    }
+
+    /*Блок со слайдером*/
+    .payment {
+        margin: 30px 10px 0;
+        color: #311E19;
+    }
+
+    .proslider {
+        display: flex;
+        height: 80px;
+        width: 95%;
+        overflow-x: scroll;
+        margin: 10px;
+        /*Слайдер*/
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-points-x: repeat(100px);
+        scroll-snap-type: mandatory;
+    }
+
+    .proslider::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .proslider>div {
+        /*Элемент слайдера*/
+        flex-shrink: 0;
+        width: 115px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background: white;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    .linkAbout {
+        font-family: 'Proxima Nova';
+        color: #EEB256;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .LawyerInfo {
+        width: 100%;
+        height: 1.5fr;
+        display: grid;
+        grid-template-rows: 0.3fr 0.7fr;
+    }
+
+    /*Юридическая информация Блок*/
+    .infoLawyer {
+        margin: 10px;
+        font-family: "Proxima Nova";
+        font-size: 16px;
+        color: #311E19;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    .infoLawyer>p {
+        margin: 10px 0;
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        height: 1fr;
+        width: 100%;
+    }
+
+    /*Блок соцсетей*/
+    .socials_inner {
+        width: 65px;
+        height: 45px;
+        border-radius: 3px;
+        background: #E7E7E7;
+        margin: auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*Иконки соцсетей*/
+    .copy {
+        background: white;
+        text-align: center;
+        color: #909090;
+        font-size: 14px;
+        height: 40px;
+        width: 100%;
+        display: grid;
+        align-items: center;
+    }
+
+    .back {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #3B4355;
+        border-radius: 6px;
+    }
+
+    .line {
+        width: 100%;
+        height: 120px;
+        background: url(5b.png);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+    }
+
+    .inside {
+        color: #6A7180;
+        opacity: 1;
+        width: 100%;
+        height: 108px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .text1 {
+        font-family: Merriweather;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #F0EFED;
+    }
+
+    .text11 {
+        font-family: Merriweather;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        color: #EEB256;
+    }
+
+}

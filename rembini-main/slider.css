@@ -1,0 +1,41 @@
+.mmm {
+  margin-bottom: 20px !important;
+}
+
+
+.brownie {
+    background-color: #EEB256 !important;
+    box-sizing: content-box !important;
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 10px !important;
+    border-top: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+}
+
+
+.polosa {
+    width: 100% !important;
+}
+
+.headofcard {
+    text-align: center;
+    color: #311E19;
+    font-family: Merriweather;
+    font-size: 80%;
+    line-height: 1;
+}
+
+.descofcard{
+text-align: center;
+font-size: 70%;
+color: #836259;
+}
+
+.teni {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.cardpic {
+    justify-content: center;
+}
