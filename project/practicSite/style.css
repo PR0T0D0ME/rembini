@@ -1,0 +1,41 @@
+@media screen and (min-width: 360px){
+	*{margin: 0;padding: 0; font: Montserrat 16px;}
+	.relative{position: relative;}
+	.overflowH{overflow: hidden;}
+	.alignLeft{text-align: left;}
+	.fs16{font-size: 16px} 
+	.footer{display: grid; width: 100%; grid-template-rows: 207px 1063px 875px; max-height: 2200px; grid-template-columns: 1fr; grid-row-gap: 30px; position: relative;} /*Футер*/
+	.footer_map{position: relative; width: 100%; height: 207px;} /*Блок с картой*/
+	.grey_rectangle{width: 100%;height: 3px;background: #E2E2E2;}
+	.iframe{width: 100%; height: 100%; border: none;} /*Яндекс Карты*/
+	.footer_top{display: grid; grid-template-rows: repeat(7,1fr); grid-template-columns: 1fr; width: 95%; margin:30px 15px; grid-gap: 15px;} /*Блок контактной информации*/
+	.footer_top_text{width: 95%;} 
+	.firstText{font-size: 24px;font-family: "Merriweather"; color: #90604C;}
+	.secondText{font-size: 20px; font-family: "Proxima Nova";}
+	.pinmap{width: 95%; max-height: 300px; max-width: 400px; margin: auto;}/*Блок с рисунком карты*/
+	.pinmapPng{width: 100%;height: 100%;}
+	.contacts{display: grid;width: 100%; height: 4fr; grid-template-columns: 0.2fr 0.8fr; grid-template-rows: repeat(4,1fr); text-align: center; align-items: center;} /*Грид с контактами*/
+	.icon{width: 50px; height: 50px; padding: auto; margin: auto;} /*Иконки в контактах*/
+	.footer_top_info{height: 2fr; font-family: "Merriweather"; font-size: 34px; width: 1fr;}
+	.black_fti{color: #311E19; margin-bottom: 10px;}
+	.questionDiv{height: 1fr; margin-top: 10px;} /*Блок с кнопкой*/
+	.question{background: #EEB256; border-radius: 3px; border: none; height: 50px; width: 200px; color: white; font-size: 15px; font-family: "Proxima Nova"} /*Кнопка "Задать вопрос"*/
+	.footer_bottom{position: relative; background: #EDEDED; display: grid; grid-template-rows: repeat(6,1fr); grid-template-columns: 1fr; grid-row-gap: 45px;} /*Нижняя часть футера*/
+.box4slider{height: 1fr; ;width: 100%; display: grid; grid-template-rows: repeat 0.3fr 0.3fr 0.1fr;} /*Блок со слайдером*/
+.payment{margin: 30px 10px 0; color: #311E19;}
+.slider {display: flex;height: 80px; width: 95%;  overflow-x: auto; margin: 10px; /*Слайдер*/
+ -webkit-overflow-scrolling: touch; scroll-snap-points-x: repeat(100px); scroll-snap-type: mandatory;
+}
+.proslider::-webkit-scrollbar {width: 0;}
+.proslider > div {/*Элемент слайдера*/
+  flex-shrink: 0; width: 115px; height: 50px; line-height: 50px; text-align: center;
+  background: white;margin-right: 15px; border-radius: 5px;
+}
+.linkAbout{font-family: 'Proxima Nova';color: #EEB256;font-size: 15px; margin-left: 10px;}
+.LawyerInfo{width: 100%;height: 1.5fr; display: grid; grid-template-rows: 0.3fr 0.7fr;} /*Юридическая информация Блок*/
+.infoLawyer{margin: 10px; font-family: "Proxima Nova"; font-size: 16px; color: #311E19; font-weight: 400; line-height: 22.4px;}
+.infoLawyer > p{margin:10px 0;}
+.socials{display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: 1fr; height: 1fr;width: 100%; } /*Блок соцсетей*/
+.socials_inner{width: 65px; height: 45px;border-radius: 3px; background: #E7E7E7; margin: auto; display: grid; align-items: center; justify-content: center;} /*Иконки соцсетей*/
+.copy{background: white; text-align: center; color: #909090; font-size: 14px; height: 40px; width: 100%; display: grid; align-items: center;}
+}
